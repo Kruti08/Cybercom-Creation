@@ -1,0 +1,68 @@
+/*To set the dimesion of Html body*/
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-image: url("F:/Cybercom-creation/Coding/2021-01-08/HTML Practice -1/Images/Background.jpg");
+}
+
+html, body
+{
+    height: 100%;
+}
+/*To allign all the content in center*/
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+/* To get image in dimention 215X315*/
+
+img{
+    height: 315px;
+    width: 215px;
+}
+
+/* To change the layput of image caption*/
+
+figure{
+    padding: none;
+    margin: none;
+}
+
+figcaption{
+    position: relative;
+    text-align: center;
+}
+
+/* To get four images in a row  */
+.column { 
+    float: left;
+    width: 23%;
+    margin: 10px;
+    border: whitesmoke 1px double;
+    font-size: 25px;
+}
+  
+/* To clear all the float after the row  */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text{
+    color: whitesmoke;
+    background-color: rgba(22, 213, 217,0.4);  
+}
