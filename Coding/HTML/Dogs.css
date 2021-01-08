@@ -1,0 +1,73 @@
+/*To set the dimesion of Html body*/
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+html, body
+{
+    height: 100%;
+}
+/*To allign all the content in center*/
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* To get image in dimention 215X315*/
+
+.column{
+    height: 315px;
+    width: 215px;
+}
+
+/* To change the layput of image caption*/
+
+figure{
+    padding: none;
+    margin: none;
+}
+
+figcaption{
+    position: relative;
+    text-align: center;
+}
+
+/* To get four images in a row  */
+.column { 
+    float: left;
+    width: 23%;
+    margin: 10px;
+    border: whitesmoke 1px double;
+    font-size: 15px;
+    align-self: center;
+}
+
+  
+/* To clear all the float after the row  */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p{
+    margin-top: 40px;
+}
+
+span{
+    position:flex;
+    margin-top: 30%;
+}
+
+.text{
+    background-color: gray;
+    padding: 150px 100px 150px 100px;
+}
