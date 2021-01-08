@@ -1,0 +1,43 @@
+Date: 08/01/2021
+
+Learning objectives:
+  (i) Introduction to html and CSS
+  (ii) Introduction to Javascript
+  (iii) Javascript Variables and operators 
+
+--> As I already had idea about html,css and javascript. Today's session helped me to brush up my concept and to learn new this.
+
+(1) New thing learned in html:
+---> <figure> : this tag is used to contain image with it's caption.
+---> <figcaption> : this tag is used to write caption to the image.
+---> I learned about new concept introduced in html5: <header>,<article>,<footer>,<section>. this elements are used to provide 
+     better structure for html.
+
+(2)Things in CSS:
+---> today, I revised and learn new CSS properties.this attributes are as following:
+---> To position the component according to parent element: position: absolute,relative,flex, etc.
+---> and other properties like:
+          ---> border
+          ---> padding
+          ---> Margin
+          ---> background
+
+(3)Things in javascript:
+---> I got to learned that javascript is a dynamically types language
+---> the data type in javascript are:
+          ---> number: float, double and int
+          ---> boolean: for true or false
+          ---> string: sequence of characters
+          ---> undefined: when we do not assign value to variable
+          ---> null: when variable do not contain in value
+
+---> Operators in javascript:
+          ---> Arithmatic: +,-*,-
+          ---> logical: >,<,>=,<=,?
+
+--->Precedance in Javascript:
+          ---> in javascript the most precedence is 20 which is of ().
+          ---> So, there is a precedence table where precedence is assigned from 20 to 0. where operator are mentioned and it is 
+               also mentioned that how for some operator precedence is checked from left to right. 
+	       
+       
