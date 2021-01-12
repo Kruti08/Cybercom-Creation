@@ -1,0 +1,48 @@
+Date: 12-01-2021
+
+Learning Objectives:
+(i) Javascript code Execution process
+(ii) 'this' keyword
+(iii) Objects and their properties
+(iv) Methods
+(v) Loops and Iterations
+(vi) Different Javascript version
+
+(i)Javascript code execution
+---> Javascript engine is a computer program that executes JS code. It is developed by web browser vendors.
+     It runs with rendering engine via Document Object Model.
+
+---> Javascript engines:
+      ---> V8 by google chrome
+      ---> Nitro engine by apple
+      ---> Spidermonkey by Mozzila 
+
+(ii) Javascripts code execution process
+---> The source code is passed through a program called a compiler, which translates it into bytecode that the
+     machine understands and can execute. In contrast, JavaScript has no compilation step.
+    
+(iii) this keyword in JS
+--->  The JavaScript this keyword refers to the object it belongs to.
+
+(iv) Objects and their properties:
+--->  Properties are the values associated with a JavaScript object.A JavaScript object is a collection of unordered 
+      properties. Properties can usually be changed, added, and deleted, but some are read only.
+
+Ex:  objeect.property   ==> person.age
+
+(v) Methods in Javascript:
+---> JavaScript methods are actions that can be performed on objects.A JavaScript method is a property containing a 
+     function definition.
+
+Ex:   object.property = function () {
+  	      return Values;
+      };  
+
+(vi) Loops:
+--->  Loops are used when you want to run the same code over and over again, each time with a different value.
+
+Ex:    for(i=0;i<5;i++){
+	     //Code	
+	}
+
+
