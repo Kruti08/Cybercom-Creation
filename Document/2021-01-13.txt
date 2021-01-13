@@ -1,0 +1,26 @@
+Date: 13-01-2021
+
+Learning bjective:
+
+(1) DOM and DOM Manipulation
+(2) Events and event handling
+
+--->So, I have already studies about DOM manipulation in past. So today's session helped me to revice all 
+    the concepts of DOM- Document Object Model. which is mainly used to intract HTML with Javascript
+
+---> In DOM, we create a tree. For which root element is HTML and it's children are head and body. So. It
+     represents all the elements in terms of nodes and as per ther connectivity they create a tree.
+
+---> We use different method to access id, classes and elements of HTML page in script using DOM object.
+
+Ex:  (i) getElementByID(id)
+     (ii) getElementsByTagName(name)
+     (iii) getElementsByClassName(name) 
+
+---> By using this, we can also chabge HTMl Elements
+
+Ex:  (i) element.innerHTML = "content to be replaced"
+     (ii) element.style.property = new style // To change the style dynamically
+
+---> And there are many more methods I learned and Practice today. 
+---> I also got to learn implementation of new HTML5 tags and regarding session and local storage.
