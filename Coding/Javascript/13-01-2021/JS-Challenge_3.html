@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JS Coding Challenge 3
+        </title>
+    </head>
+    <body>
+        <h1> <center> JS Coding Challange 3 </center></h1>
+        <h3> <center> Calculate tips and total bill </center></h3>
+        <script>
+            
+            //Bill variables
+            var bill1,bill2,bill3;
 
+            //Tip for three bills
+            var tip1,tip2,tip3;
+
+            // Enter the amount of three bill
+            bill1=parseInt(prompt("Enter the amount of bill 1: "));
+            bill2=parseInt(prompt("Enter the amount of bill 2: "));
+            bill3=parseInt(prompt("Enter the amount of bill 3: "));
+
+            // Function to calculate the tips
+
+            function calculateTips(bill){
+                var tip;
+                if(bill<50){
+                    tip = (0.2*bill);
+                }    
+                else if(bill>50 && bill<=200 ){
+                    tip = (0.15*bill);
+                } 
+                else{
+                    tip = (0.1*bill);
+                }
+                return +(tip.toFixed(2)); 
+            }
+
+            //Call the function to calculate the tips
+
+            tip1= calculateTips(bill1);
+            tip2= calculateTips(bill2);
+            tip3= calculateTips(bill3);
+
+            //Store the tips in an array
+
+            var tips = [tip1 , tip2 , tip3];
+
+            //Store the ammount to be paid in array 
+
+            var paidAmount1= bill1+tip1;
+            var paidAmount2= bill2+tip2;
+            var paidAmount3= bill3+tip3;
+
+            var paidAmount = [ paidAmount1,paidAmount2,paidAmount3];
+
+            // Show the tips and total bill paid
+
+            for(var i=0;i<3;i++){
+                console.log("The tip is "+ tips[i] + "and total paid amount is "+ paidAmount[i]);
+            }
+
+            /* So for the given example we have take following values:
+                 bill1 = 124 
+                 bill2 = 48
+                 bill3 = 268
+
+                 For this bill amount the tip and the total paid amount we get is:
+                 ---> For bill-1 :  tip: 18.6       paid amount: 142.6
+                 ---> For bill-2 :  tip: 9.6        paid amount: 57.6
+                 ---> For bill-3 :  tip: 26.8       paid amount: 294.8                 
+            */
+        </script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8" content="text/html">
+        <title>
+            JS Coding Challange 4
+        </title>
+    </head>    
+    <body>
+        <h1> <center>Javascript Coding Challenge 4 </center></h1>
+        <h3><center>Class and Object example</center></h3>
+
+        <script>
+            // Give the class definition
+
+            function BMI(fullName,mass,height) {
+                    this.fullName = fullName;
+                    this.mass = mass;
+                    this.height = height;
+            }
+
+            var mark = new BMI("Mark",60,1.6);
+            var john = new BMI("John",65,1.8);
+
+            mark.BMI = function(){
+                var bmi = this.mass/(this.height*this.height);
+                return bmi;                
+            }
+
+            john.BMI = function(){
+                var bmi = this.mass/(this.height*this.height);
+                return bmi;                
+            }
+
+            if(mark.BMI() > john.BMI()){
+                console.log("BMI of Mark ("+mark.BMI()+") is greather than BMI of John ("+john.BMI()+")");
+            }
+            else if(mark.BMI() < john.BMI()){
+                console.log("BMI of Mark ("+mark.BMI()+") is lesser than BMI of John ("+john.BMI()+")");
+            }
+            else{
+                console.log("Both mark and john has same BMI");
+            }
+            
+
+
+        </script>
+    </body>
+</html>
