@@ -1,0 +1,42 @@
+table{
+    border: 1px solid black;
+    width: 60%;
+}
+
+th,td{
+    border: 1px solid black; 
+    padding: 5px;
+}
+#head{
+    background-color: #03fc90;
+}
+
+.no-border{
+    border-bottom: none;
+    border-top: none ;
+    border-collapse: collapse;
+}
+
+.company{
+    background-color: #6bd5f2;
+    width: 20%;
+    font-weight: bold;
+}
+
+.Collaborator{
+    width: 40%;
+}
+
+.Cell{
+    background-color: #ffa1c6;
+    width: 15%;
+}
+.Applications{
+    background-color: #fffda1;
+    width: 25% ;
+}
+
+span{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
