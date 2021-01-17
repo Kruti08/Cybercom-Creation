@@ -1,0 +1,28 @@
+.container{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.form_labels{
+    margin: 10px 10px 10px 25px;
+    width: 90%;
+    padding: 15px;
+    border-color: gray;
+    border-width: 0.5px;
+} 
+
+.head{
+    width: 100%;
+    padding: 20px 20px 20px 35px;
+    background-image: url("F:/Cybercom-Creation/Coding/HTML/2021-01-16/Image-1.jpg");
+    color:aqua ;
+}
+
+button{
+    background-color: blueviolet;
+    color:whitesmoke;
+    padding: 10px 25px;
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 1px 1px blueviolet;
+}
