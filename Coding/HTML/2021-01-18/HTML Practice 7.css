@@ -1,0 +1,15 @@
+fieldset{
+    border: 1px solid black;
+    width: 600px;
+    margin:auto;
+  }
+
+.element{
+    margin: 4px;
+    w
+}
+
+label{
+    width: 220px;
+    display: inline-block;
+}
