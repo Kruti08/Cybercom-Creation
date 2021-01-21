@@ -1,0 +1,47 @@
+#text{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.row{
+    width: 100%;
+}
+
+.column { 
+    float: left;
+    width: 30%;
+    margin: 10px;
+    border: whitesmoke 1px double;
+    font-size: 15px;
+    align-self: center;
+    height: 150px;
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.heading{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.content{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.col-1{
+    background-color: #ffd296;
+}
+
+.col-2{
+    background-color:#e173ff ;
+}
+.col-3{
+    background-color: #f786d9;
+}

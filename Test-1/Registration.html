@@ -9,7 +9,7 @@
     <center>
     <div class="container">
         <h2>Registration</h2>
-        <form>
+        <form method="POST">
             <div class="element">
                 <input type="text" class="ele" placeholder="Name" id="name" required>
             </div>
@@ -37,14 +37,16 @@
                     <option value="gujarat">Gujarat</option>
                     <option value="Maharastra">Maharastra</option>
                     <option value="Aasam">Aasam</option>
-                    <option value="Karnataka"></option>
+                    <option value="Karnataka">Karnataka</option>
                 </select>
             </div>
-            <input type="checkbox" name="chk" id="chk"> Terms & Conditions
+            <input type="checkbox" name="chk" id="chk" required> Terms & Conditions
             <div class="element">
-                <button>REGISTER NOW</button>
+                <button type="submit" onclick="getInfo()">REGISTER NOW</button>
             </div>         
         </form>
     </div>
     </center>
+
+    <script src="JS/Registration.js"></script>
 </html>
