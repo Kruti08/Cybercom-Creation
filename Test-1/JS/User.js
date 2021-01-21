@@ -29,3 +29,52 @@ function addUserData(){
     cell5.innerHTML=age;
     cell6.innerHTML=text;
 }
+
+window.onload=()=>{
+    var usersArray=JSON.parse(localStorage.getItem('users'));
+    writeOnPage(users); 
+}
+
+function adduser(){
+    var obj=new NewEntry();
+
+    if(localStorage.getItem('users')!==null){
+        data=JSON.parse(localStorage.getItem('users'));
+    }   
+    data.push(obj);
+    localStorage.setItem('users',JSON.stringify(data));
+    viewUser();
+}
+
+function viewUser(){
+    const usersArray=JSON.parse(localStorage.getItem('users'));
+    const userName=[];
+    const email=[];
+    const password=[];
+    const dob=[];
+    const age=[]
+
+   users.forEach((element)=>{
+       userName.push(element.name);
+       email.push(element.email);
+       password.push(element.password);
+       dob.push(element.dob);
+       age.push(element.age);
+   })
+
+
+
+}
+function writeOnPage(usersArray){
+    data=users;    
+
+    for(var i=0;i<data.length;i++){
+        var tr=document.createElement('tr');
+        for(const prop in data[i]){
+            var td=document.createElement('td');
+            td.innerText=data[i][prop];
+            tr.appendChild(td);
+        }   
+        table.appendChild(tr);
+    }
+}
