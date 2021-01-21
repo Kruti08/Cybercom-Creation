@@ -3,14 +3,14 @@
     <head>
         <title>Login</title>
         <meta content="text/html" charset="utf-8">
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="CSS/login.css">
     </head>
     <body>
         <br><br><br><br><br>
         <center> <h2>Login</h2> </center>
         <center>
         <div class="container">
-            <form>
+            <form id="_form" method="POST">
                     <div class="element">
                         <input type="email" placeholder="Email" id="email" required>
                     </div>
@@ -18,14 +18,15 @@
                         <input type="password" name="pwd" id="pwd" required placeholder="password">
                     </div>
                     <div class="element">
-                        <button>LOGIN</button>
+                        <button type="submit" onclick="getInfo()">LOGIN</button>
                     </div>
                     <center><h3>OR</h3></center>
                     <div class="element">
-                        <button>REGISTER NOW</button>
+                        <button  type="submit">REGISTER NOW</button>
                     </div>          
             </form>
         </div>
         </center>
+        <script src="JS/login.js"></script>
     </body>
 </html>

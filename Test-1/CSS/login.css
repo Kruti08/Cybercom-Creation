@@ -1,0 +1,20 @@
+.container{
+    width: 350px;
+    height: 310px;
+    background-color: #fff8ba;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+input,button{
+    width: 300px;
+    height: 40px;
+}
+
+.element{
+    margin: 20px;
+}
+
+button{
+    background-color: #ff9a2e;
+    border:1px solid black;
+}
