@@ -1,0 +1,41 @@
+.container{
+    padding-top: 10px;
+    border: 2px solid black;
+    width: 600px ;
+    height:550px;
+}
+
+.element{
+    margin: 10px;
+}
+
+.ele{
+    width:380px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#btn2{
+    height: 50px;
+    width: 200px;
+    background-color:#3d7bff;
+    border-radius: 2ch;
+    border-style: none;
+    display: inline-block;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+#fil1{
+    margin-right: 100px;
+}
+select{
+    height: 50px;
+    width: 380px;
+}
+
+#file{
+    padding: 10px;
+}

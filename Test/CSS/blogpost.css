@@ -1,0 +1,41 @@
+.container{
+    margin: 30px;
+}
+
+.btns{
+    float: right;
+}
+
+#bt1{
+    background-color:#8fffb4 ;
+    border-style: none;
+    border-radius: 1ch;
+    height: 30px;
+    width: 150px;
+}
+.bt2{
+    background-color:#8fc1ff;
+    border-style: none;
+    border-radius: 1ch;
+    height: 30px;
+    width: 150px;
+}
+#bt3{
+    background-color:#ffa3f3 ;
+    border-style: none;
+    border-radius: 1ch;
+    height: 30px;
+    width: 150px;
+}
+
+table{
+    border:2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td,tr{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}

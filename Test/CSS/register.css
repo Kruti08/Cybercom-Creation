@@ -1,0 +1,41 @@
+.container{
+    padding-top: 10px;
+    border: 2px solid black;
+    width: 600px ;
+    height:630px;
+}
+
+label{
+    padding: 20px;
+}
+
+#chk{
+    text-align: left;
+    display: inline-flexbox;
+}
+
+.element{
+    margin: 10px;
+}
+
+.ele{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+select{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#btn2{
+    height: 50px;
+    width: 200px;
+    background-color:#3d7bff;
+    border-radius: 2ch;
+    border-style: none;
+    display: inline-block;
+}
+\
