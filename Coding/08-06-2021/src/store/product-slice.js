@@ -16,7 +16,24 @@ const productSlice = createSlice({
                 shortDescription: product.productShortDescription,
                 longDescription: product.productLongDescription
             });
-        }
+        },
+        editProduct(state,action){
+            const existingProduct = action.payload;
+            state.products = state.products.filter(product => product.id !== existingProduct.id);
+            state.products.push({
+                id: existingProduct.id,
+                name: existingProduct.productName,
+                category: existingProduct.productCategory,
+                price: existingProduct.productPrice,
+                shortDescription: existingProduct.productShortDescription,
+                longDescription: existingProduct.productLongDescription
+            });
+        },
+        deleteProduct(state,action){
+            const id = action.payload;
+            state.products = state.products.filter(product => product.id !== id);
+            // console.log(state.products);
+        },
     }
 });
 
